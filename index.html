@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+
+<body class="bg-danger">
+
+    <div class="jumbotron text-center bg-warning" style="margin-bottom:0">
+        <h1>Choose Your Car</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">CarBook</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container d-flex justify-content-center mt-4">
+        <div class="row">
+            <div class="col-3">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Mercedes
+                        <span class="badge badge-primary badge-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Range Rover
+                        <span class="badge badge-primary badge-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Maserati
+                        <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        BMW
+                        <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Mustang
+                        <span class="badge badge-primary badge-pill">1</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    <div class="col-3 mr-auto">
+                        <div class="card" style="width: 301px;">
+                            <img class="card-img-top" src="img/car-1.jpg" alt="Card image cap"
+                                style="width: 300px; height: 200px;">
+                            <div class="card-body" style="width: 300px; height: 110px;">
+                                <p class="card-text text-center">Mercedes Grand Sedan</p>
+                            </div>
+                            <div class="card-footer text-muted text-center">
+                                1000$
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-info">Book Now</a>
+                                <a href="#" class="btn btn-success">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mr-auto">
+                        <div class="card" style="width: 301px;">
+                            <img class="card-img-top" src="img/car-2.jpg" alt="Card image cap"
+                                style="width: 300px; height: 200px;">
+                            <div class="card-body" style="width: 300px; height: 110px;">
+                                <p class="card-text text-center">Range Rover</p>
+                            </div>
+                            <div class="card-footer text-muted text-center">
+                                2000$
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-info">Book Now</a>
+                                <a href="#" class="btn btn-success">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 301px;">
+                            <img class="card-img-top" src="img/car-3.jpg" alt="Card image cap"
+                                style="width: 300px; height: 200px;">
+                            <div class="card-body" style="width: 300px; height: 110px;">
+                                <p class="card-text text-center">Mercedes Grand Sedan</p>
+                            </div>
+                            <div class="card-footer text-muted text-center">
+                                3000$
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-info">Book Now</a>
+                                <a href="#" class="btn btn-success">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-3 mr-auto">
+                        <div class="card" style="width: 301px;">
+                            <img class="card-img-top" src="img/car-4.jpg" alt="Card image cap"
+                                style="width: 300px; height: 200px;">
+                            <div class="card-body" style="width: 300px; height: 110px;">
+                                <p class="card-text text-center">Mercedes Grand Sedan</p>
+                            </div>
+                            <div class="card-footer text-muted text-center">
+                                1000$
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-info">Book Now</a>
+                                <a href="#" class="btn btn-success">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mr-auto">
+                        <div class="card" style="width: 301px;">
+                            <img class="card-img-top" src="img/car-5.jpg" alt="Card image cap"
+                                style="width: 300px; height: 200px;">
+                            <div class="card-body" style="width: 300px; height: 110px;">
+                                <p class="card-text text-center">Range Rover</p>
+                            </div>
+                            <div class="card-footer text-muted text-center">
+                                2000$
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-info">Book Now</a>
+                                <a href="#" class="btn btn-success">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 301px;">
+                            <img class="card-img-top" src="img/car-6.jpg" alt="Card image cap"
+                                style="width: 300px; height: 200px;">
+                            <div class="card-body" style="width: 300px; height: 110px;">
+                                <p class="card-text text-center">Mercedes Grand Sedan</p>
+                            </div>
+                            <div class="card-footer text-muted text-center">
+                                3000$
+                            </div>
+                            <div class="card-body text-center">
+                                <a href="#" class="btn btn-info">Book Now</a>
+                                <a href="#" class="btn btn-success">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50 mt-4">
+        <div class="container text-center">
+          <small>Copyright &copy; Madeo Services | Uretken Academy</small>
+        </div>
+      </footer>
+
+</body>
+
+</html>
